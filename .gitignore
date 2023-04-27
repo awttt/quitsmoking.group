@@ -3,6 +3,7 @@
 
 # Production
 /build
+/pack.sh
 
 # Generated files
 .docusaurus
