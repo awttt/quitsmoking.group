@@ -3,11 +3,12 @@
 
 # Production
 /build
-/pack.sh
+
 
 # Generated files
 .docusaurus
 .cache-loader
+.pack.sh
 
 # Misc
 .DS_Store
