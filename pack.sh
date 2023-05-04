@@ -1,14 +1,5 @@
 #!/bin/bash
 
-#!/bin/bash
-
-# 服务器信息
-SSH_HOST="106.53.64.77"
-SSH_PORT="22"
-SSH_USER="ubuntu"
-SSH_PASSWORD="zxcxz111."
-REMOTE_DIR="/var/www/html"
-
 # 进入项目根目录，执行 pnpm build
 # cd /path/to/your/project
 pnpm build
