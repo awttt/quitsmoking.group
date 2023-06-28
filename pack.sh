@@ -1,4 +1,5 @@
-#!/bin/bash
+
+
 
 # 进入项目根目录，执行 pnpm build
 # cd /path/to/your/project
