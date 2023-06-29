@@ -37,15 +37,9 @@ export default function Home(): JSX.Element {
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />"
     >
-      <main>
-        <div style={{ position: "absolute", zIndex: "2" }}>
-          <h1>
-            Welcome to the <Typewriter /> Example
-          </h1>
-         <FloatingSvg/>
-        </div>
-        <ReactNebula
-          style={{ position: "absolute", zIndex: "1" }}
+      <main >
+      <ReactNebula
+          // style={{ position: "relative", zIndex: "1" }}
           config={{
             starsCount: 560,
             starsColor: "#FFFFFF",
@@ -59,6 +53,14 @@ export default function Home(): JSX.Element {
             solarSystemSpeedOrbit: 0,
           }}
         />
+        <div style={{ zIndex: "2",display:'flex',justifyContent:'space-between', }}>
+          <div style={{ zIndex: "2",padding:'200px' }}>
+          <h1>
+            Welcome to the <Typewriter /> Example
+          </h1>
+          </div>
+         <FloatingSvg/>
+        </div>
       </main>
     </Layout>
   );
