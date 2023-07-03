@@ -7,7 +7,7 @@ export const Typewriter = () => {
 
   React.useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ["TypeScript", "React", "Next.js", "Docusaurus"],
+      strings: ["戒烟", "撸码", "摇滚乐"],
       typeSpeed: 50,
       backSpeed: 50,
       loop: true,
